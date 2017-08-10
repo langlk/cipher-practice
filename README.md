@@ -1,12 +1,12 @@
 # Cipher Practice
 
-#### _Epicodus practice in Javascript, HTML, and CSS, August 7, 2017_
+#### _Epicodus practice in Javascript, HTML, and CSS, August 9, 2017_
 
 #### By Bably Kumari and Kelsey Langlois
 
 ## Description
 
-_Program that encodes text via a simple cipher. Currently only demonstrates what encoding and decoding one sentence looks like._
+_Program that encodes text via a simple cipher. Can encode and decode sentences inputted by user._
 
 ## Setup/Installation Requirements
 
@@ -15,7 +15,7 @@ _Program that encodes text via a simple cipher. Currently only demonstrates what
 
 ## Known Bugs
 
-_Currently this is a demo of encoding and decoding one sentence, without the interface to take new input to encode or decode._
+_No bugs currently known. Please contact the creators with any newly-discovered bugs._
 
 ## Support and contact details
 
@@ -24,9 +24,8 @@ _Please contact Bably Kumari or Kelsey Langlois with questions, comments, or iss
 ## Technologies Used
 
 * HTML
-* Javascript
-* CSS
-* Bootstrap
+* Javascript/JQuery
+* CSS/Bootstrap
 
 ### License
 
