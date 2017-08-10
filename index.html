@@ -9,11 +9,36 @@
   </head>
   <body>
     <div class="container">
-      <h1>Cipher Test</h1>
+      <div class="jumbotron">
+        <h1>Cipher</h1>
+        <p>A simple algorithm for encoding sentences. Try it out below!</p>
+      </div>
 
-      <p class="original">Original Sentence: I am a sentence</p>
-      <p class="result">Encoded Sentence: IEecnetnes a ma ls</p>
+      <h2>Example</h2>
+      <p><em>Click on the sentence below to encode or decode.</em></p>
+      <p class="clickable original"><strong>Original Sentence:</strong> I am a sentence</p>
+      <p class="clickable result"><strong>Encoded Sentence:</strong> IEecnetnes a ma ls</p>
 
+      <h2>Encode or Decode a Sentence</h2>
+      <form id="cipher">
+        <div class="form-group">
+          <label for="sentence">Sentence:</label>
+          <input id="sentence" class="form-control" type="text">
+        </div>
+        <div class="radio form-group">
+          <label>
+            <input type="radio" name="todo" value="encode" checked>
+            Encode
+          </label>
+        </div>
+        <div class="radio form-group">
+          <label>
+            <input type="radio" name="todo" value="decode">
+            Decode
+          </label>
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
     </div>
   </body>
 </html>
