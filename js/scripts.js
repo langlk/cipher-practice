@@ -32,7 +32,7 @@ var decode = function(string) {
 
 $(document).ready(function() {
   // Toggle event for example
-  $("p").click(function() {
+  $("p.clickable").click(function() {
     $(".original").toggle();
     $(".result").toggle();
   });
